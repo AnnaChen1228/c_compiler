@@ -1,0 +1,26 @@
+LET a = 10
+LET b = 20
+
+PRINT "!+:"
+PRINT a!+b
+
+PRINT "!-:"
+PRINT a!-b
+
+PRINT "!*:"
+PRINT a!*b
+
+PRINT "!/:"
+PRINT a!/b
+
+/*PRINT "!>:"
+PRINT a!>b
+
+PRINT "!>=:"
+PRINT a!>=b
+
+PRINT "!<:"
+PRINT a!<b
+
+PRINT "!<=:"
+PRINT a!<=b*/

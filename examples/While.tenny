@@ -1,0 +1,8 @@
+LET sum = 0
+LET num = 100
+LET i = 0
+WHILE i < num REPEAT
+    LET sum=sum+i
+    LET i=i+1
+ENDWHILE
+PRINT sum

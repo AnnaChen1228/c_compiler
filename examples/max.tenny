@@ -1,0 +1,7 @@
+print min 20 10
+print min 10 10
+print min 30 40
+print ""
+print max 40 30
+print max 10 10
+print max 10 20

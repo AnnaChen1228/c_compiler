@@ -1,0 +1,17 @@
+LET a = 20
+LET b = 30
+LET c = 0
+
+IF a>b THEN
+    PRINT "a>b IN IF"
+ENDIF
+ELSE THEN
+    PRINT "a>b IN ELSE"
+ENDELSE
+
+IF a>c THEN
+    PRINT "a>c IN IF"
+ENDIF
+ELSE IF a<c THEN
+    PRINT "a>c IN ELSE"
+ENDELSE

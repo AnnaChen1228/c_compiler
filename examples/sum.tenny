@@ -1,0 +1,30 @@
+PRINT "number 1:"
+INPUT num1
+PRINT "number 2:"
+INPUT num2
+
+
+LET c = num1 + num2
+PRINT c
+PRINT ""
+LET d = num1 !- num2
+PRINT d
+PRINT ""
+LET e = num1 - num2
+PRINT e
+PRINT "" 
+LET f = num1 !+ num2
+PRINT f
+PRINT ""
+LET g = num1 * num2
+PRINT g
+PRINT ""
+LET h = num1 !/ num2
+PRINT h
+PRINT ""
+LET i = num1 / num2
+PRINT i 
+PRINT ""
+LET j = num1 !* num2
+PRINT j
+PRINT ""

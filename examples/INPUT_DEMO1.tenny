@@ -1,0 +1,131 @@
+PRINT "ARITHMSTIC:"
+PRINT "number 1:"
+INPUT a
+PRINT "number 2:"
+INPUT b
+
+
+PRINT "ADD:"
+PRINT a+b
+
+PRINT "MINUS:"
+PRINT a-b
+
+PRINT "ASTERISK:"
+PRINT a*b
+
+PRINT "SLASH:"
+PRINT a/b
+PRINT "-----------------------------------------"
+PRINT "statements:"
+PRINT "IF-ELSE:"
+PRINT "number a:"
+INPUT a
+PRINT "number b:"
+INPUT b
+PRINT "number c:"
+INPUT c
+
+
+
+IF a>b THEN
+    PRINT "a>b IN IF"
+ENDIF
+ELSE THEN
+    PRINT "a>b IN ELSE"
+ENDELSE
+
+IF a>c THEN
+    PRINT "a>c IN IF"
+ENDIF
+ELSE IF a<c THEN
+    PRINT "a>c IN ELSE"
+ENDELSE
+print ""
+LET sum = 0
+LET num = 100
+LET i = 0
+WHILE i < num REPEAT
+    LET sum=sum+i
+    LET i=i+1
+ENDWHILE
+PRINT sum
+PRINT "-----------------------------------------"
+PRINT "PRINT"
+PRINT "Print"
+PRINT "-----------------------------------------"
+
+PRINT "COMMENT:"
+# PRINT "in comment"
+Print "Not in comment"
+PRINT "-----------------------------------------"
+PRINT "EXTRA:"
+PRINT "INVERSE:"
+PRINT "number 1:"
+INPUT a
+PRINT "number 2:"
+INPUT b
+PRINT "!+:"
+PRINT a!+b
+
+PRINT "!-:"
+PRINT a!-b
+
+PRINT "!*:"
+PRINT a!*b
+
+PRINT "!/:"
+PRINT a!/b
+
+/*PRINT "!>:"
+PRINT a!>b
+
+PRINT "!>=:"
+PRINT a!>=b
+
+PRINT "!<:"
+PRINT a!<b
+
+PRINT "!<=:"
+PRINT a!<=b*/
+PRINT ""
+PRINT "number 1:"
+INPUT a
+PRINT "number 2:"
+INPUT b
+PRINT "number 1:"
+INPUT c
+
+
+if a!>b then
+print"into !>"
+endif
+if a!>=b then
+print"into !>="
+endif
+if b!<c then
+print"into !<"
+endif
+if b!<c then
+print"into !<="
+endif
+PRINT ""
+PRINT "MULTILINE COMMENTS"
+Print "Not in multiline comment"
+PRINT ""
+# PRINT "in comment"
+Print "Not in comment"
+
+
+PRINT "-----------------------------------------"
+
+PRINT "COMMENT:"
+/* PRINT "in multiline comment"
+PRINT "in multiline comment"
+PRINT "in multiline comment"*/
+
+Print "Not in multiline comment"
+PRINT ""
+# PRINT "in comment"
+Print "Not in comment"
+PRINT "-----------------------------------------"

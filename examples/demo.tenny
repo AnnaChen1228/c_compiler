@@ -1,0 +1,132 @@
+LET a = 10
+LET b = 20
+
+PRINT "ADD:"
+PRINT a+b
+
+PRINT "MINUS:"
+PRINT a-b
+
+PRINT "ASTERISK:"
+PRINT a*b
+
+PRINT "SLASH:"
+PRINT a/b
+
+PRINT "-----------------------------------------"
+PRINT "statements:"
+PRINT "IF-ELSE:"
+LET a = 20
+LET b = 30
+LET c = 0
+
+IF a>b THEN
+    PRINT "a>b IN IF"
+ENDIF
+ELSE THEN
+    PRINT "a>b IN ELSE"
+ENDELSE
+
+IF a>c THEN
+    PRINT "a>c IN IF"
+ENDIF
+ELSE IF a<c THEN
+    PRINT "a>c IN ELSE"
+ENDELSE
+print ""
+LET sum = 0
+LET num = 100
+LET i = 0
+WHILE i < num REPEAT
+    LET sum=sum+i
+    LET i=i+1
+ENDWHILE
+PRINT sum
+PRINT "-----------------------------------------"
+PRINT "PRINT"
+PRINT "Print"
+PRINT "-----------------------------------------"
+
+PRINT "COMMENT:"
+# PRINT "in comment"
+Print "Not in comment"
+PRINT "-----------------------------------------"
+PRINT "EXTRA:"
+PRINT "INVERSE:"
+Let a=2
+Let b=5
+PRINT "!+:"
+PRINT a!+b
+
+PRINT "!-:"
+PRINT a!-b
+
+PRINT "!*:"
+PRINT a!*b
+
+PRINT "!/:"
+PRINT a!/b
+
+/*PRINT "!>:"
+PRINT a!>b
+
+PRINT "!>=:"
+PRINT a!>=b
+
+PRINT "!<:"
+PRINT a!<b
+
+PRINT "!<=:"
+PRINT a!<=b*/
+PRINT ""
+Let a=10
+Let b=100
+Let c=50
+if a!>b then
+print"into !>"
+endif
+if a!>=b then
+print"into !>="
+endif
+if b!<c then
+print"into !<"
+endif
+if b!<c then
+print"into !<="
+endif
+PRINT ""
+PRINT "MULTILINE COMMENTS"
+Print "Not in multiline comment"
+PRINT ""
+# PRINT "in comment"
+Print "Not in comment"
+
+
+PRINT "-----------------------------------------"
+
+PRINT "COMMENT:"
+/* PRINT "in multiline comment"
+PRINT "in multiline comment"
+PRINT "in multiline comment"*/
+
+Print "Not in multiline comment"
+PRINT ""
+# PRINT "in comment"
+Print "Not in comment"
+PRINT "-----------------------------------------"
+print "MAX_MIN"
+print min 20 10
+print min 10 10
+print min 30 40
+print ""
+print max 40 30
+print max 10 10
+print max 10 20
+PRINT "-----------------------------------------"
+print "SORT"
+print sort 10 305 40
+PRINT "-----------------------------------------"
+print "POW"
+print 5**
+print 10**
+PRINT "-----------------------------------------"

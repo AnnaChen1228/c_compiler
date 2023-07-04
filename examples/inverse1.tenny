@@ -1,0 +1,15 @@
+Let a=10
+Let b=100
+Let c=50
+if a!>b then
+print"into !>"
+endif
+if a!>=b then
+print"into !>="
+endif
+if b!<c then
+print"into !<"
+endif
+if b!<c then
+print"into !<="
+endif

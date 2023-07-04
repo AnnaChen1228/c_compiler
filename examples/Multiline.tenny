@@ -1,0 +1,5 @@
+/* PRINT "in multiline comment"
+PRINT "in multiline comment"
+PRINT "in multiline comment"*/
+
+Print "Not in multiline comment"

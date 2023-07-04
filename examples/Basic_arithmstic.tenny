@@ -1,0 +1,14 @@
+LET a = 10
+LET b = 20
+
+PRINT "ADD:"
+PRINT a+b
+
+PRINT "MINUS:"
+PRINT a-b
+
+PRINT "ASTERISK:"
+PRINT a*b
+
+PRINT "SLASH:"
+PRINT a/b

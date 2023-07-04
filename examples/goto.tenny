@@ -1,0 +1,8 @@
+LET j=0
+while j<3 repeat
+IF j==1 then
+goto A
+endif
+LET j=j+1
+endwhile
+A  print "goto"
